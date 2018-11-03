@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../just-waves/just-waves.png);
+    line-height: 150%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #eee;
+    padding: 12px 10px;
+    max-width: 400px;
+    height: 50px;
+    font-size: 14;
+    float: left;
+    left: 200px;
+    top: 20px;
+    position: absolute;
+}
+
+.top {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    background-color: #eeee;
+}
+
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 14;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-left: 3px;
+    padding-bottom: 0px;
+    padding-right: 3px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+}
+
+.action {
+    width: 100%;
+    padding: 12px 20 px;
+    margin: 8px 0;
+}
+
+.info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 14;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-left: 3px;
+    padding-bottom: 0px;
+    padding-right: 3px;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+
+}
+
+.portfolio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 14;
+    background-color: #ffffff;
+    padding-top: .5px;
+    padding-left: 3px;
+    padding-bottom: .5px;
+    padding-right: 3px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 20%;
+}
+
+.aboutme {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 14;
+    background-color: #ffffff;
+    padding-top: .5px;
+    padding-left: 3px;
+    padding-bottom: .5px;
+    padding-right: 3px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+
+.container {
+
+    height: auto;
+    width: 960px;
+    background-color: #ffffff;
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    margin: 40px auto;
+    border: 2px solid #ffffff;
+}
+
+
+
+#basicinfo {
+    width: 960px;
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: left;
+    width: 960px;
+    float: left;
+}
+
+.block-img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    margin: auto;
+    z-index: 2;
+
+}
+
+
+.gallery {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+
+
+.desc {
+    color: #eee;
+    background-color: #4aaaa5;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: #eee;
+    text-align: center;
+    padding: 16px 30px;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.pages {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    float: right;
+    margin-right: 200px;
+    border-right: 1px solid #666666;
+    padding-right: 10px;
+}
+
+.nav {
+    float: left;
+    color: #777777;
+    padding-right: 10px;
+    margin-right: 12px;
+    border-right: 1 solid #777777;
+
+}
+
+footer {
+    float: clear;
+    background-color: #333333;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    border-top: 10px solid #4aaaa5;
+}
+
+@media screen and (max-width: 600px) {
+    .top {
+        float: none;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .container {
+        float: none;
+        width: 100%;
+        padding-top: 100px;
+        z-index: inherit;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top {
+        float: none;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .container {
+        float: none;
+        width: 100%;
+        padding-top: 70px;
+        z-index: inherit;
+        margin-top: 12px;
+
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+    }
+}
